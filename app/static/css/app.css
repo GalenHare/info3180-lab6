@@ -2,6 +2,38 @@ body {
     padding-top: 5rem;
 }
 
+.news_list{
+	display: block;
+	clear: both;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 1200px;
+/*	grid-template-columns: 33% 33% 34%; */
+/*	grid-row-gap: 30px;
+	grid-column-gap: 30px;*/
+
+}
+
+.news_item{
+    box-sizing: inherit;
+    margin: 2px;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    margin-bottom: 1em;
+    width: 24%;
+    padding-left: 1em;
+    padding-right: 1em;
+    border-top: 5px solid rgb(64, 181, 130);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+}
+
+.newsImage{
+	width:100%;
+}
+
 footer  {
     padding-top: 20px;
 }
